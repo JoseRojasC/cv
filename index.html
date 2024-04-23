@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <a href="./index.html"><img class="navbar-brand" src="./assets/img/logo.png"></a>
+          <a href="./index.html"><img class="navbar-brand col-12  " src="./assets/img/logo.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,11 +30,13 @@
           </div>
         </div>
     </nav>
-    <div class="inicio d-flex justify-content-around">
-        <div class="baner ">
-          <div class="text-light">
+    <div class="inicio d-flex justify-content-around row">
+        <div class="baner col-12 col-md-6">
+          <div class="text-light ">
             <p class="fs-1">¡HOLA!<br>SERE TU PROGRAMADOR<br>HAGO LO DIFICIL, SIMPLE</p>
-            <button type="button" class="btn btn-outline-danger">Contactame</button>
+            <button type="button" class="btn btn-outline-danger" onclick="location.hre='https://github.com/freitasjuli'">
+              Contactame
+            </button>
           </div>
           <div class="tabla">
             <table>
@@ -49,15 +51,15 @@
             </table>
           </div>
         </div>
-        <div>
+        <div class="col-12 col-md-6 p-0">
             <img class="imagen" src="./assets/img/nuevo.png">
         </div>
     </div>
-    <div class="contenedor bg-dark d-flex justify-content-around" >
-      <div>
+    <div class="contenedor bg-dark d-flex justify-content-around row" >
+      <div class="col-12 col-md-6">
         <img class="imgyo" src="./assets/img/yo_soy.jpg">
       </div>
-      <div class="texto text-light pt-3">
+      <div class="texto text-light pt-3 col-12 col-md-6">
         <h1>Soy Julián Andrés Aranguren, desarrollador fullStack</h1>
         <p>Soy una persona creativa y, con buena comunicación que aborda los problemas poco a poco para lograr resolver de la manera más eficaz posible, me considero un líder lo que me lleva a escuchar y orientar a las personas para lograr el mejor desarrollo de los distintos proyectos.</p>
         <button type="button" class="btn btn-outline-danger mt-3">Conose mi trabajo</button>
@@ -73,7 +75,7 @@
                   <p class="card-text">
                       pagina creada para un stpa, para subir y promover el cunsumo del mismo
                   </p>
-                  <button type="button" class="btn btn-outline-danger">
+                  <button type="button" class="btn btn-outline-danger" onclick="location.href='https://github.com/freitasjuli/spa'">
                       Ver más
                   </button>
               </div>
@@ -87,7 +89,7 @@
                   <p class="card-text">
                       creada para dar a conoses las iguanas, con datos interesantes he interactivos
                   </p>
-                  <button type="button" class="btn btn-outline-danger">
+                  <button type="button" class="btn btn-outline-danger" onclick="location.href='https://github.com/freitasjuli/iguana'">
                       Ver más
                   </button>
               </div>
@@ -97,11 +99,11 @@
           <div class="card m-2">
               <img class="image-top" src="./assets/img/card-3.png">
               <div class="card-body">
-                  <h5 class="card-title fw-bold">Gynacio</h5>
+                  <h5 class="card-title fw-bold">Gimnasio</h5>
                   <p class="card-text">
                       la diseñe para promocionar un gym, y conseguir clientes 
                   </p>
-                  <button type="button" class="btn btn-outline-danger">
+                  <button type="button" class="btn btn-outline-danger" onclick="location.href='https://github.com/freitasjuli/Gym-cuppon'">
                       Ver más
                   </button>
               </div>
@@ -115,14 +117,14 @@
                 <p class="card-text">
                     realice un fork y cambie a mi gustos los datos 
                 </p>
-                <button type="button" class="btn btn-outline-danger">
+                <button type="button" class="btn btn-outline-danger" onclick="location.href='https://github.com/freitasjuli/fdsw-github'">
                     Ver más
                 </button>
             </div>
         </div>
     </div>
   </div>
-  <section class="bg-dark ">
+  <section class="bg-dark col-12">
     <div class="formulario p-5">
       <h2 class="display-4 fw-bold text-light text-center my-4">Contáctame</h2>
       <p class="text-center my-4 d-none text-light d-md-block">Si quieres saber mas sobre my y mi trabajo, o estas interesado en que trabaje parati o con tigo contactame </p>
