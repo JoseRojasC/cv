@@ -7,8 +7,7 @@ html, body {
 
 .container {
     
-    padding: 14px; /* Añadir un poco de espacio alrededor del contenido */
-    border-radius: 1px; /* Opcional: agregar bordes redondeados al contenedor */
+    padding: 14px;
     margin-top: 40px;
 }
 
