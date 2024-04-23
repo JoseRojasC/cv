@@ -10,3 +10,20 @@
 .imagen{
     width: 450px;
 }
+.contenedor{
+    padding: 100px;
+}
+.imgyo{
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.proyectos{
+    background-color: #000000;
+}
+.image-top {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

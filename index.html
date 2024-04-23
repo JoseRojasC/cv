@@ -53,70 +53,97 @@
             <img class="imagen" src="./assets/img/nuevo.png">
         </div>
     </div>
-    <div>
+    <div class="contenedor bg-dark d-flex justify-content-around" >
       <div>
-        <img src="./assets/img/yo_soy.jpg">
+        <img class="imgyo" src="./assets/img/yo_soy.jpg">
       </div>
-      <div>
+      <div class="texto text-light pt-3">
         <h1>Soy Julián Andrés Aranguren, desarrollador fullStack</h1>
         <p>Soy una persona creativa y, con buena comunicación que aborda los problemas poco a poco para lograr resolver de la manera más eficaz posible, me considero un líder lo que me lleva a escuchar y orientar a las personas para lograr el mejor desarrollo de los distintos proyectos.</p>
-        <button type="button" class="btn btn-outline-danger">Conose mi trabajo</button>
+        <button type="button" class="btn btn-outline-danger mt-3">Conose mi trabajo</button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-              <div class="image-top" style="background-image: url(assets/img/card-1.png)"></div>
+    <div class="proyectos row py-5">
+      <h2 class="text-center py-5 text-light">Te mustro un poco de los trabajos que he realizado</h2>
+      <div class="col-12 col-md-4 col-lg-3">
+          <div class="card m-2">
+              <img class="image-top img-fluid" src="./assets/img/card-1.png">
               <div class="card-body">
                   <h5 class="card-title fw-bold">pagina Spa</h5>
                   <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Explicabo iure sint, perspiciatis distinctio molestias nihil
-                      repudiandae neque rem adipisci repellendus libero illo quo
-                      blanditiis, velit quasi ad, recusandae voluptates officia.
+                      pagina creada para un stpa, para subir y promover el cunsumo del mismo
                   </p>
-                  <button type="button" class="btn btn-outline-info">
+                  <button type="button" class="btn btn-outline-danger">
                       Ver más
                   </button>
               </div>
           </div>
       </div>
-      <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-              <div class="image-top" style="background-image: url(assets/img/card-2.png)"></div>
+      <div class="col-12 col-md-4 col-lg-3">
+          <div class="card m-2">
+            <img class="image-top img-fluid" src="./assets/img/card-2.png">
               <div class="card-body">
                   <h5 class="card-title fw-bold">pagina iguanas</h5>
                   <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                      consequatur quos error fuga excepturi quo. Laudantium optio
-                      pariatur laboriosam modi, ea molestias?
+                      creada para dar a conoses las iguanas, con datos interesantes he interactivos
                   </p>
-                  <button type="button" class="btn btn-outline-info">
+                  <button type="button" class="btn btn-outline-danger">
                       Ver más
                   </button>
               </div>
           </div>
       </div>
-      <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-              <div class="image-top" style="background-image: url(assets/img/card-3.png)"></div>
+      <div class="col-12 col-md-4 col-lg-3">
+          <div class="card m-2">
+              <img class="image-top" src="./assets/img/card-3.png">
               <div class="card-body">
                   <h5 class="card-title fw-bold">Gynacio</h5>
                   <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                      corporis facilis qui architecto dolor, accusamus eveniet
-                      exercitationem fugit. Quod autem neque ducimus.
+                      la diseñe para promocionar un gym, y conseguir clientes 
                   </p>
-                  <button type="button" class="btn btn-outline-info">
+                  <button type="button" class="btn btn-outline-danger">
                       Ver más
                   </button>
               </div>
           </div>
       </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="card m-2">
+          <img class="image-top" src="./assets/img/card-4.png">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">re-ajuste</h5>
+                <p class="card-text">
+                    realice un fork y cambie a mi gustos los datos 
+                </p>
+                <button type="button" class="btn btn-outline-danger">
+                    Ver más
+                </button>
+            </div>
+        </div>
+    </div>
   </div>
-
-</section>
+  <section class="bg-dark ">
+    <div class="formulario p-5">
+      <h2 class="display-4 fw-bold text-light text-center my-4">Contáctame</h2>
+      <p class="text-center my-4 d-none text-light d-md-block">Si quieres saber mas sobre my y mi trabajo, o estas interesado en que trabaje parati o con tigo contactame </p>
+      <form class="formulario">
+        <div class="form-group mb-4">
+            <label class="mb-2">Nombre</label>
+            <input class="form-control" placeholder="Nombre completo">
+        </div>
+        <div class="form-group mb-4">
+            <label class="mb-2">Correo electrónico</label>
+            <input class="form-control" placeholder="Correo electrónico" />
+        </div>
+        <div class="form-group">
+            <label class="mb-2">Mensaje</label>
+            <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+        </div>
+        <div class="my-3 text-end">
+            <button class="btn btn-outline-danger ">Enviar</button>
+        </div>
+      </form>
+   </div>
+  </section>
 </body>
 </html>
