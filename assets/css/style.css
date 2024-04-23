@@ -1,26 +1,44 @@
-.inicio{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    
+    padding: 14px; /* Añadir un poco de espacio alrededor del contenido */
+    border-radius: 1px; /* Opcional: agregar bordes redondeados al contenedor */
+    margin-top: 40px;
+}
+
+.text-dark {
+    list-style-type: none;
+}
+
+.inicio {
     background-color: #000000;
 }
-.baner{
+.baner {
     padding-top: 150px;
     padding-left: 100px;
 }
 .tabla{
-    margin-top: 150px;
+    margin-top: 60px;
 }
 .imagen{
     height: 650px;
     padding-left: 50px;
 }
-.contenedor{
+.contenedor {
     padding: 100px;
 }
-.imgyo{
+.imgyo {
     width: 300px;
     margin-right: 100px;
     margin-left: 150px;
 }
-.proyectos{
+.proyectos {
     background-color: #000000;
 }
 .image-top {
